@@ -1,0 +1,25 @@
+{
+  "transport": "BLE",
+  "operations": [
+    {
+      "request": "0000010100",
+      "notifications": [
+        {
+          "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+          "data": "00ff00010e01"
+        }
+      ]
+    }
+  ],
+  "notification_setup": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "result": "Failed to update the notification status for characteristic 49: Error Domain=CBATTErrorDomain Code=10 \"The attribute could not be found.\" UserInfo={NSLocalizedDescription=The attribute could not be found.}"
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "result": "Failed to update the notification status for characteristic 51: Error Domain=CBATTErrorDomain Code=10 \"The attribute could not be found.\" UserInfo={NSLocalizedDescription=The attribute could not be found.}"
+    }
+  ],
+  "error": "RuntimeError: Centurion error 14; stopping without authorization changes"
+}

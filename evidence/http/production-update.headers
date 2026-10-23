@@ -1,0 +1,10 @@
+HTTP/2 200 
+content-type: application/json; charset=utf-8
+content-length: 2
+server: awselb/2.0
+date: Fri, 23 Oct 2026 13:46:57 GMT
+x-cache: Miss from cloudfront
+via: 1.1 3b255ceb3a4e43a81aad174fc42d7dec.cloudfront.net (CloudFront)
+x-amz-cf-pop: HAM50-P5
+x-amz-cf-id: 9UQXIx0ZalvH1BRDdUokWptvfskjDUsvMW3EP98_J1tjPzCmuAoB4Q==
+

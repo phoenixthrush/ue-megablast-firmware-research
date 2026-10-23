@@ -1,0 +1,90 @@
+{
+  "observed_date": "2026-10-23",
+  "notes": [
+    "Input hashes measure original downloaded bytes, not every redacted derivative.",
+    "The APK source URL is a mirror listing, not a reusable signed download URL.",
+    "The NW.js published checksums listed only a headers archive; they did not independently verify the SDK hash."
+  ],
+  "artifacts": [
+    {
+      "name": "java-runtime.tar.gz",
+      "source_url": "https://github.com/adoptium/temurin27-binaries/releases/download/jdk-27%2B35/OpenJDK27U-jre_aarch64_mac_hotspot_27_35.tar.gz",
+      "bytes": 57015885,
+      "sha256": "b7a665a922c072986177a141d313c0dc634609024c523711924c28c0a96fd3e8",
+      "included": false,
+      "status": "Unused portable JRE download; existing Homebrew JDK used instead"
+    },
+    {
+      "name": "diagnostic-faq.pdf",
+      "source_url": "https://m.media-amazon.com/images/I/A1KtnBF%2BupS.pdf",
+      "bytes": 1132600,
+      "sha256": "c2c0680330dad6d3dfffcd72a3eb07a478506b9e0c4e99da091ae1f713175868",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "updater-faq.pdf",
+      "source_url": "https://images-eu.ssl-images-amazon.com/images/I/A1VznU2mAOS.pdf",
+      "bytes": 1437783,
+      "sha256": "deeb4607e94c0b88c8d69a4ecee91968529fb33e1a45f2d7275e2c907920ae20",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "jadx-1.5.6.zip",
+      "source_url": "https://github.com/skylot/jadx/releases/download/v1.5.6/jadx-1.5.6.zip",
+      "bytes": 72646741,
+      "sha256": "545ea2be9c242511bc145755cf4bda2485ade42966e096f8b4d3da2a230e8974",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "BLAST_MEGABLAST_Diagnostic_Tool.msi",
+      "source_url": "https://files.logitech.com/audio/mobileApps/resources/tools/BLAST_%26_MEGABLAST_Diagnostic_Tool.msi",
+      "bytes": 66347008,
+      "sha256": "6b742031e330ce7c9e416d108fdd31f2e6c0f8315d152b00671fcab494f5c253",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "BLAST_and_MEGABLAS_Diagnostic_Tool.dmg",
+      "source_url": "https://files.logitech.com/audio/mobileApps/resources/tools/BLAST_and_MEGABLAS_%20Diagnostic_Tool.dmg",
+      "bytes": 96234145,
+      "sha256": "00158207751ab1257f4b8c0f2040782f4e26be1267c2657f68c2aa950d0d6423",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "blast-megablast-2.2.121.apk",
+      "source_url": "https://www.apkmirror.com/apk/logitech-europe-s-a/blast-megablast-by-ultimate-ears/blast-megablast-by-ultimate-ears-2-2-121-release/blast-megablast-by-ultimate-ears-2-2-121-android-apk-download/",
+      "bytes": 25215524,
+      "sha256": "83a0fe9b01a8e82b9ac91ac3672d9654b25d4c2f59048fcf6759028a577c0396",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "nwjs-sdk-v0.31.1-osx-x64.zip",
+      "source_url": "https://dl.nwjs.io/v0.31.1/nwjs-sdk-v0.31.1-osx-x64.zip",
+      "bytes": 98615988,
+      "sha256": "58921e3a2475741e6de38c359f0c645ffc03c91811df4cfde550068b8ca804fc",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "nwjs-0.31.1-SHASUMS256.txt",
+      "source_url": "https://dl.nwjs.io/v0.31.1/SHASUMS256.txt",
+      "bytes": 90,
+      "sha256": "93776219d6167f1dff5e4009537b1baef378742fff499b1f235f0f7e5145996e",
+      "included": false,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    },
+    {
+      "name": "UEServiceLocator.xml",
+      "source_url": "https://files.logitech.com/audio/mobileApps/resources/UEServiceLocator.xml",
+      "bytes": 1649,
+      "sha256": "8fb97e71f318073a9e766e84bf0f3a5098c98951ccb8de401b0dd3a3a4eb3862",
+      "included": true,
+      "status": "Acquired during investigation; see docs for scope and verification limits"
+    }
+  ]
+}

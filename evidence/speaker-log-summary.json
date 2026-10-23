@@ -1,0 +1,14 @@
+{
+  "log_bytes": 193321,
+  "sha256": "063130a23cc81e79b1eb56e88d62ecabe1441b391b4d978b62e31fdbe19026cd",
+  "standard_crc32": "69a38792",
+  "device_crc32": "965c786d",
+  "inverted_crc32_matches": true,
+  "historical_update": {
+    "from": "3.3.213",
+    "to": "3.4.216",
+    "device_logged_timestamp": "2020-10-11T13:26:05.026248Z"
+  },
+  "firmware_image_acquired": false,
+  "raw_log_published": false
+}

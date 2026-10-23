@@ -1,0 +1,346 @@
+
+7-Zip (z) 26.05 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:8 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 3749296 bytes (3662 KiB)
+
+Listing archive: work/diagnostic-windows/ue_diag_tool.exe
+
+--
+Path = work/diagnostic-windows/ue_diag_tool.exe
+Type = PE
+Physical Size = 3749296
+CPU = x86
+Characteristics = Executable 32-bit LargeAddress
+Created = 2018-02-04 19:14:01
+Headers Size = 1024
+Checksum = 3768933
+Name = nw.exe
+Image Size = 1847296
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 1086976
+Initialized Data Size = 741376
+Uninitialized Data Size = 0
+Linker Version = 14.11
+OS Version = 5.1
+Image Version = 0.0
+Subsystem Version = 5.1
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible GuardCF TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0
+CompanyName: The NWJS Community
+FileDescription: nwjs
+InternalName: nw_exe
+LegalCopyright: Copyright 2017 The Chromium Authors. All rights reserved.
+OriginalFilename: nw.exe
+ProductName: nwjs
+CompanyShortName: nwjs.io
+ProductShortName: nwjs
+LastChange: 5bae9719551562c019846c01a2d4b971add30f16-
+Data Directories: 16
+{
+index=0 name=EXPORT VA=0x154C80 Size=104
+index=1 name=IMPORT VA=0x154CE8 Size=220
+index=2 name=RESOURCE VA=0x15E000 Size=370672
+index=4 name=SECURITY VA=0x391728 Size=7816
+index=5 name=BASERELOC VA=0x1B9000 Size=39728
+index=6 name=DEBUG VA=0x152CD0 Size=56
+index=9 name=TLS VA=0x152D08 Size=24
+index=10 name=LOAD_CONFIG VA=0x10CB00 Size=64
+index=12 name=IAT VA=0x10B000 Size=1208
+index=13 name=DELAY_IMPORT VA=0x154AB4 Size=128
+}
+}
+----
+Path = [0]
+Size = 1925416
+Packed Size = 1925416
+Virtual Size = 1925416
+Offset = 1816064
+--
+Path = [0]
+Type = zip
+Physical Size = 1925415
+Tail Size = 1
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2018-06-14 16:36:06 .....         3493         3498  UEIcon.png
+2018-06-14 16:36:06 .....       437498       433021  UEback.jpg
+2018-06-14 16:36:06 .....        55605        14591  WARRANTY DISCLAIMER.rtf
+2018-06-14 16:36:06 .....        15632         8686  app/njcc.bin
+2018-06-14 16:36:06 .....          805          280  index.css
+2018-06-22 21:25:32 .....        18120        10808  gui.bin
+2018-06-18 18:54:48 .....         2298          877  index.html
+2018-06-14 16:36:06 .....        26104        11611  app/njch.bin
+2017-09-19 22:45:24 .....         3966         1429  node_modules/aproba/index.js
+2017-01-14 03:03:04 .....          135          125  node_modules/ansi-regex/index.js
+2018-06-07 20:44:04 .....         2346         1023  node_modules/ansi-regex/package.json
+2018-06-14 16:36:06 .....         1106          655  license
+2018-06-07 20:44:04 .....         1581          805  node_modules/aproba/package.json
+1985-10-26 08:15:00 .....          163           82  node_modules/are-we-there-yet/index.js
+1985-10-26 08:15:00 .....          274          163  node_modules/are-we-there-yet/tracker-base.js
+2018-06-07 20:44:04 .....         1781          846  node_modules/are-we-there-yet/package.json
+1985-10-26 08:15:00 .....          963          395  node_modules/are-we-there-yet/tracker-stream.js
+1985-10-26 08:15:00 .....         3231         1115  node_modules/are-we-there-yet/tracker-group.js
+1985-10-26 08:15:00 .....          826          310  node_modules/are-we-there-yet/tracker.js
+1980-01-01 00:00:00 .....         6400         2135  node_modules/bl/bl.js
+2017-07-24 19:15:32 .....         4858         1980  node_modules/bindings/bindings.js
+2018-06-07 20:44:04 .....         1492          741  node_modules/bindings/package.json
+2018-06-07 20:44:04 .....         1750          890  node_modules/bl/package.json
+2018-05-29 23:39:30 .....          664          296  node_modules/buffer-alloc/index.js
+2018-05-29 23:16:28 .....          356          185  node_modules/buffer-alloc-unsafe/index.js
+2018-06-07 20:44:04 .....         1679          760  node_modules/buffer-alloc-unsafe/package.json
+2018-06-07 20:44:04 .....         1610          768  node_modules/buffer-alloc/package.json
+2018-05-29 23:34:22 .....         2433          859  node_modules/buffer-fill/index.js
+2018-06-07 20:44:04 .....         1379          659  node_modules/buffer-fill/package.json
+2015-08-09 22:21:56 .....         1395          542  node_modules/chownr/chownr.js
+2018-06-07 20:44:04 .....         1382          680  node_modules/chownr/package.json
+2016-11-03 10:37:58 .....          610          347  node_modules/code-point-at/index.js
+2018-06-07 20:44:04 .....         1700          771  node_modules/code-point-at/package.json
+2016-06-15 23:27:28 .....         2339          882  node_modules/console-control-strings/index.js
+2018-06-07 20:44:04 .....         1930          885  node_modules/console-control-strings/package.json
+2015-11-20 00:37:20 .....         3021         1232  node_modules/core-util-is/lib/util.js
+2018-06-07 20:44:04 .....         1595          754  node_modules/core-util-is/package.json
+2017-06-02 19:38:30 .....          628          355  node_modules/decompress-response/index.js
+1985-10-26 08:15:00 .....           47           49  node_modules/deep-extend/index.js
+1985-10-26 08:15:00 .....         4293         1916  node_modules/deep-extend/lib/deep-extend.js
+2018-06-07 20:44:04 .....         2201          978  node_modules/deep-extend/package.json
+2015-12-14 19:55:22 .....         2065          544  node_modules/delegates/index.js
+2018-06-07 20:44:04 .....         1349          643  node_modules/delegates/package.json
+2017-10-27 18:53:12 .....          371          234  node_modules/detect-libc/bin/detect-libc.js
+2017-11-22 10:09:26 .....         2182          808  node_modules/detect-libc/lib/detect-libc.js
+2018-06-07 20:44:04 .....         1824          848  node_modules/detect-libc/package.json
+2018-01-10 16:11:26 .....         2493          775  node_modules/end-of-stream/index.js
+2018-06-07 20:44:04 .....         2065          871  node_modules/decompress-response/package.json
+2018-06-07 20:44:04 .....         1680          810  node_modules/end-of-stream/package.json
+1985-10-26 08:15:00 .....          617          312  node_modules/expand-template/index.js
+2018-04-26 14:36:50 .....           65           50  node_modules/fs-constants/index.js
+2018-06-07 20:44:04 .....         1646          782  node_modules/expand-template/package.json
+2018-04-26 14:37:26 .....           38           40  node_modules/fs-constants/browser.js
+2018-06-07 20:44:04 .....         1432          691  node_modules/fs-constants/package.json
+2016-06-16 01:59:58 .....          395          200  node_modules/gauge/base-theme.js
+2016-06-16 01:59:58 .....          616          265  node_modules/gauge/error.js
+2016-06-16 01:59:58 .....          292          195  node_modules/gauge/has-color.js
+2017-02-08 00:49:26 .....         6999         2182  node_modules/gauge/index.js
+2018-06-07 20:44:04 .....         2175         1012  node_modules/gauge/package.json
+2016-06-16 01:59:58 .....           89           77  node_modules/gauge/process.js
+2017-04-21 22:13:52 .....         1269          471  node_modules/gauge/plumbing.js
+2016-06-16 01:59:58 .....          998          466  node_modules/gauge/progress-bar.js
+2016-06-16 08:51:24 .....         5739         1813  node_modules/gauge/render-template.js
+2016-06-16 01:59:58 .....          139          104  node_modules/gauge/set-immediate.js
+2016-06-16 01:59:58 .....          105           88  node_modules/gauge/spin.js
+2016-06-16 01:59:58 .....           93           82  node_modules/gauge/set-interval.js
+2016-06-16 01:59:58 .....         1904          612  node_modules/gauge/template-item.js
+2016-06-16 01:59:58 .....         3693         1074  node_modules/gauge/theme-set.js
+2016-06-16 01:59:58 .....         1543          505  node_modules/gauge/themes.js
+2012-12-29 11:11:08 .....          406          225  node_modules/github-from-package/index.js
+2016-06-16 01:59:58 .....          828          410  node_modules/gauge/wide-truncate.js
+2018-06-07 20:44:04 .....         1634          719  node_modules/github-from-package/package.json
+2016-06-23 22:09:56 .....          657          415  node_modules/has-unicode/index.js
+2016-09-07 20:29:20 .....          192          131  node_modules/inherits/inherits.js
+2018-06-07 20:44:04 .....         1483          712  node_modules/has-unicode/package.json
+2013-05-16 14:39:58 .....          672          300  node_modules/inherits/inherits_browser.js
+2018-06-07 20:44:04 .....         1554          734  node_modules/inherits/package.json
+2017-11-21 22:14:04 .....         4767         1897  node_modules/ini/ini.js
+2018-06-07 20:44:04 .....         1635          829  node_modules/ini/package.json
+2015-07-16 21:57:32 .....         1463          697  node_modules/is-fullwidth-code-point/index.js
+2018-06-07 20:44:04 .....         1999          825  node_modules/is-fullwidth-code-point/package.json
+2015-12-10 10:04:40 .....          132          108  node_modules/isarray/index.js
+2018-06-07 20:44:04 .....         1823          812  node_modules/isarray/package.json
+2017-06-02 16:43:40 .....          810          447  node_modules/mimic-response/index.js
+2018-06-07 20:44:04 .....         1728          772  node_modules/mimic-response/package.json
+2015-08-24 13:56:16 .....         7189         2063  node_modules/minimist/index.js
+2014-12-26 20:47:20 .....          731          380  node_modules/mkdirp/bin/cmd.js
+2018-06-07 20:44:04 .....         1767          811  node_modules/minimist/package.json
+2015-05-14 02:31:34 .....         2630          809  node_modules/mkdirp/index.js
+2014-02-21 04:46:00 .....         5589         1678  node_modules/mkdirp/node_modules/minimist/index.js
+2018-06-07 20:44:04 .....         1680          778  node_modules/mkdirp/node_modules/minimist/package.json
+2018-06-07 20:44:04 .....         1559          757  node_modules/mkdirp/package.json
+2017-04-05 22:07:16 .....           55           56  node_modules/nan/include_dirs.js
+2018-06-07 20:44:04 .....         2609         1135  node_modules/nan/package.json
+2018-02-22 17:07:30 .....        14364         4260  node_modules/nan/tools/1to2.js
+2017-04-05 22:07:16 .....          441          277  node_modules/nan/tools/package.json
+2018-05-04 14:58:04 .....         4405         1182  node_modules/node-abi/index.js
+2018-06-07 20:44:04 .....         1776          874  node_modules/node-abi/package.json
+2018-06-11 16:27:14 .....         3087         1195  node_modules/node-hid/build/Release/HID.exp
+2018-06-11 16:27:14 .....      1026976       294088  node_modules/node-hid/build/Release/HID.iobj
+2018-06-11 16:27:14 .....       277728        83342  node_modules/node-hid/build/Release/HID.ipdb
+2018-06-11 16:27:14 .....         5366         1305  node_modules/node-hid/build/Release/HID.lib
+2018-06-11 16:27:14 .....       228864       125357  node_modules/node-hid/build/Release/HID.node
+2018-06-11 16:27:10 .....       213310        69330  node_modules/node-hid/build/Release/hidapi.lib
+2018-06-11 16:27:12 .....      1465026       462586  node_modules/node-hid/build/Release/obj/HID/HID.obj
+2018-06-11 16:57:00 .....         1096          346  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.delete.1.tlog
+2018-06-11 16:41:20 .....         1096          343  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.delete.15.tlog
+2018-06-11 16:57:00 .....         1394          380  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.delete.24.tlog
+2018-06-11 16:46:32 .....         1096          344  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.delete.43.tlog
+2018-06-11 16:57:00 .....         6306         1068  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.1.tlog
+2018-06-11 16:41:20 .....         1852          414  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.11.tlog
+2018-06-11 16:41:20 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.15.tlog
+2018-06-11 16:43:12 .....         1238          319  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.16.tlog
+2018-06-11 16:57:00 .....          934          284  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.24.tlog
+2018-06-11 16:57:00 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.25.tlog
+2018-06-11 16:57:00 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.26.tlog
+2018-06-11 16:57:00 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.27.tlog
+2018-06-11 16:46:28 .....        34374         2447  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.40.tlog
+2018-06-11 16:46:32 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.43.tlog
+2018-06-11 16:41:20 .....         2500          612  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.7.tlog
+2018-06-11 16:40:50 .....         4714          706  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.read.9.tlog
+2018-06-11 16:57:00 .....         1284          401  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.write.1.tlog
+2018-06-11 16:41:20 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.write.15.tlog
+2018-06-11 16:57:00 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.write.24.tlog
+2018-06-11 16:46:28 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.write.40.tlog
+2018-06-11 16:46:32 .....          798          210  node_modules/node-hid/build/Release/obj/HID/HID.tlog/link-VCTIP.write.43.tlog
+2018-06-11 16:27:12 .....        48743        16746  node_modules/node-hid/build/Release/obj/HID/win_delay_load_hook.obj
+2018-06-11 16:27:10 .....       161100        51830  node_modules/node-hid/build/Release/obj/hidapi/hid.obj
+2018-06-11 16:27:10 .....        48724        16713  node_modules/node-hid/build/Release/obj/hidapi/win_delay_load_hook.obj
+2018-01-09 03:04:02 .....          349          198  node_modules/node-hid/hidapi/android/jni/Android.mk
+2018-01-09 03:04:02 .....           52           51  node_modules/node-hid/hidapi/bootstrap
+2018-01-09 03:04:02 .....         6958         2557  node_modules/node-hid/hidapi/configure.ac
+2018-01-09 03:04:02 .....        67900        23304  node_modules/node-hid/hidapi/doxygen/Doxyfile
+2018-01-09 03:04:02 .....        12534         4785  node_modules/node-hid/hidapi/m4/ax_pthread.m4
+2018-01-09 03:04:02 .....         5221         2215  node_modules/node-hid/hidapi/m4/pkg.m4
+2018-01-09 03:04:02 .....          325          226  node_modules/node-hid/hidapi/pc/hidapi-hidraw.pc.in
+2018-01-09 03:04:02 .....          315          219  node_modules/node-hid/hidapi/pc/hidapi-libusb.pc.in
+2018-01-09 03:04:02 .....          276          198  node_modules/node-hid/hidapi/pc/hidapi.pc.in
+2018-01-09 03:04:02 .....          816          347  node_modules/node-hid/hidapi/testgui/TestGUI.app.in/Contents/Info.plist
+2018-01-09 03:04:02 .....            8            8  node_modules/node-hid/hidapi/testgui/TestGUI.app.in/Contents/PkgInfo
+2018-01-09 03:04:02 .....           92           74  node_modules/node-hid/hidapi/testgui/TestGUI.app.in/Contents/Resources/English.lproj/InfoPlist.strings
+2018-01-09 03:04:02 .....        21918         1778  node_modules/node-hid/hidapi/testgui/TestGUI.app.in/Contents/Resources/Signal11.icns
+2018-01-09 03:04:02 .....         2060          910  node_modules/node-hid/hidapi/testgui/mac_support_cocoa.m
+2018-01-09 03:04:02 .....         4838         1382  node_modules/node-hid/hidapi/testgui/testgui.vcproj
+2018-01-09 03:04:02 .....         1540          789  node_modules/node-hid/hidapi/udev/99-hid.rules
+2018-01-09 03:04:02 .....          373          195  node_modules/node-hid/hidapi/windows/ddk_build/hidapi.def
+2018-01-09 03:04:02 .....          380          235  node_modules/node-hid/hidapi/windows/ddk_build/sources
+2018-01-09 03:04:02 .....         4227         1231  node_modules/node-hid/hidapi/windows/hidapi.vcproj
+2018-01-09 03:04:02 .....         4160         1193  node_modules/node-hid/hidapi/windows/hidtest.vcproj
+2018-01-09 02:19:04 .....         4157         1625  node_modules/node-hid/nodehid.js
+2018-06-07 20:44:04 .....         2399         1106  node_modules/node-hid/package.json
+2015-10-06 07:05:34 .....         1897          821  node_modules/node-hid/src/buzzers.js
+2015-10-06 07:05:34 .....         1805          768  node_modules/node-hid/src/powermate.js
+2018-01-09 02:14:30 .....          397          258  node_modules/node-hid/src/show-devices.js
+2015-10-15 04:53:40 .....          853          454  node_modules/node-hid/src/test-bigredbutton.js
+2018-01-02 00:22:26 .....         2375          937  node_modules/node-hid/src/test-blink1.js
+2015-10-06 07:05:34 .....          457          214  node_modules/node-hid/src/test-buzzers.js
+2017-08-14 21:54:04 .....          201          137  node_modules/node-hid/src/test-ci.js
+2016-12-09 22:21:42 .....         1579          728  node_modules/node-hid/src/test-macbookprotrackpad.js
+2016-11-16 23:23:36 .....          560          247  node_modules/node-hid/src/test-powermate.js
+2015-10-11 20:23:32 .....         2804         1153  node_modules/node-hid/src/test-ps3-rumbleled.js
+2015-10-08 03:28:36 .....          362          229  node_modules/node-hid/src/test-ps3.js
+2018-01-02 00:42:40 .....         1942          846  node_modules/node-hid/src/test-teensyrawhid.js
+2016-02-23 05:27:42 .....         3092         1240  node_modules/node-hid/src/testReadSync.js
+2015-10-06 07:05:34 .....         1176          530  node_modules/node-hid/src/wscript
+2016-02-16 16:34:26 .....          245          180  node_modules/noop-logger/circle.yml
+2016-02-16 16:34:26 .....          259          160  node_modules/noop-logger/lib/index.js
+2018-06-07 20:44:04 .....         1328          636  node_modules/noop-logger/package.json
+2017-06-26 23:22:16 .....         8615         3152  node_modules/npmlog/log.js
+2018-06-07 20:44:04 .....         1605          816  node_modules/npmlog/package.json
+2015-05-20 20:36:52 .....           82           81  node_modules/number-is-nan/index.js
+2018-06-07 20:44:04 .....         1659          748  node_modules/number-is-nan/package.json
+2017-01-16 15:33:52 .....         2108          933  node_modules/object-assign/index.js
+2018-06-07 20:44:04 .....         1802          812  node_modules/object-assign/package.json
+2016-09-06 21:06:10 .....          935          355  node_modules/once/once.js
+2018-06-07 20:44:04 .....         1545          757  node_modules/once/package.json
+2015-07-20 23:25:14 .....          608          304  node_modules/os-homedir/index.js
+2018-06-07 20:44:04 .....         1717          784  node_modules/os-homedir/package.json
+2018-04-16 13:21:34 .....         1743          770  node_modules/prebuild-install/bin.js
+2018-04-16 13:21:34 .....         4820         1665  node_modules/prebuild-install/download.js
+2018-04-16 13:21:34 .....          330          191  node_modules/prebuild-install/error.js
+2018-04-16 13:21:36 .....           41           37  node_modules/prebuild-install/index.js
+2018-04-16 13:21:36 .....          232          154  node_modules/prebuild-install/log.js
+2018-06-07 20:44:04 .....         3356         1392  node_modules/prebuild-install/package.json
+2018-04-16 13:21:36 .....         2083          902  node_modules/prebuild-install/rc.js
+2018-04-16 13:21:36 .....         2632         1023  node_modules/prebuild-install/util.js
+2017-12-11 21:19:16 .....         1045          413  node_modules/process-nextick-args/index.js
+2018-06-07 20:44:04 .....         1549          718  node_modules/process-nextick-args/package.json
+2018-01-22 16:22:18 .....         2217          907  node_modules/pump/index.js
+2018-06-07 20:44:04 .....         1552          798  node_modules/pump/package.json
+2018-01-22 16:05:02 .....         1094          471  node_modules/pump/test-browser.js
+2018-01-22 16:05:48 .....          956          418  node_modules/pump/test-node.js
+2018-04-29 17:45:40 .....          137          105  node_modules/rc/browser.js
+2018-04-29 17:45:40 .....          109          105  node_modules/rc/cli.js
+2018-04-29 17:45:40 .....         1503          668  node_modules/rc/index.js
+2018-04-29 17:45:40 .....         2759         1201  node_modules/rc/lib/utils.js
+2018-06-07 20:44:04 .....         1695          868  node_modules/rc/package.json
+1985-10-26 08:15:00 .....           53           55  node_modules/readable-stream/duplex-browser.js
+1985-10-26 08:15:00 .....           46           48  node_modules/readable-stream/duplex.js
+1985-10-26 08:15:00 .....         4000         1810  node_modules/readable-stream/lib/_stream_duplex.js
+1985-10-26 08:15:00 .....         1738          969  node_modules/readable-stream/lib/_stream_passthrough.js
+1985-10-26 08:15:00 .....        31309        11258  node_modules/readable-stream/lib/_stream_readable.js
+1985-10-26 08:15:00 .....         7727         3327  node_modules/readable-stream/lib/_stream_transform.js
+1985-10-26 08:15:00 .....        20302         7458  node_modules/readable-stream/lib/_stream_writable.js
+1985-10-26 08:15:00 .....         2059          720  node_modules/readable-stream/lib/internal/streams/BufferList.js
+1985-10-26 08:15:00 .....         1849          661  node_modules/readable-stream/lib/internal/streams/destroy.js
+1985-10-26 08:15:00 .....           49           48  node_modules/readable-stream/lib/internal/streams/stream-browser.js
+1985-10-26 08:15:00 .....           36           38  node_modules/readable-stream/lib/internal/streams/stream.js
+2018-06-07 20:44:04 .....         2473         1094  node_modules/readable-stream/package.json
+1985-10-26 08:15:00 .....           51           53  node_modules/readable-stream/passthrough.js
+1985-10-26 08:15:00 .....          351          139  node_modules/readable-stream/readable-browser.js
+1985-10-26 08:15:00 .....          771          273  node_modules/readable-stream/readable.js
+1985-10-26 08:15:00 .....           49           51  node_modules/readable-stream/transform.js
+1985-10-26 08:15:00 .....           55           56  node_modules/readable-stream/writable-browser.js
+1985-10-26 08:15:00 .....          229          152  node_modules/readable-stream/writable.js
+1985-10-26 08:15:00 .....         1529          551  node_modules/safe-buffer/index.js
+2018-06-07 20:44:04 .....         1724          841  node_modules/safe-buffer/package.json
+2018-06-07 20:44:04 .....         1418          726  node_modules/semver/package.json
+2017-07-26 17:58:32 .....          619          283  node_modules/semver/range.bnf
+2018-01-16 19:27:10 .....        36504        10672  node_modules/semver/semver.js
+2016-05-17 22:57:18 .....          252          152  node_modules/set-blocking/index.js
+2018-06-07 20:44:04 .....         1833          845  node_modules/set-blocking/package.json
+2016-12-04 03:20:24 .....         3909         1471  node_modules/signal-exit/index.js
+2018-06-07 20:44:04 .....         1749          820  node_modules/signal-exit/package.json
+2016-12-02 21:10:46 .....         1295          684  node_modules/signal-exit/signals.js
+2016-04-21 09:02:18 .....          305          155  node_modules/simple-concat/index.js
+2018-06-07 20:44:04 .....         1596          741  node_modules/simple-concat/package.json
+1985-10-26 08:15:00 .....         3661         1400  node_modules/simple-get/index.js
+2018-06-07 20:44:04 .....         2050          972  node_modules/simple-get/package.json
+2016-08-13 19:57:08 .....          741          423  node_modules/string-width/index.js
+2018-06-07 20:44:04 .....         2049          896  node_modules/string-width/package.json
+1985-10-26 08:15:00 .....         9465         3481  node_modules/string_decoder/lib/string_decoder.js
+2018-06-07 20:44:04 .....         1786          826  node_modules/string_decoder/package.json
+2018-06-07 20:44:04 .....         2191          945  node_modules/strip-ansi/package.json
+2015-02-22 09:23:32 .....          161          127  node_modules/strip-ansi/index.js
+2016-02-09 08:26:14 .....         1700          555  node_modules/strip-json-comments/index.js
+2018-06-07 20:44:04 .....         1847          800  node_modules/strip-json-comments/package.json
+2018-04-30 11:38:42 .....         9350         2898  node_modules/tar-fs/index.js
+2017-11-16 20:43:42 .....         2082          830  node_modules/tar-fs/node_modules/pump/index.js
+2018-06-07 20:44:04 .....         1510          777  node_modules/tar-fs/node_modules/pump/package.json
+2017-11-16 20:43:42 .....         1030          446  node_modules/tar-fs/node_modules/pump/test-browser.js
+2018-06-07 20:44:04 .....         1745          844  node_modules/tar-fs/package.json
+2018-04-27 16:00:40 .....         5928         1703  node_modules/tar-stream/extract.js
+2018-04-26 14:45:32 .....         7419         2789  node_modules/tar-stream/headers.js
+2017-11-13 11:30:08 .....           72           49  node_modules/tar-stream/index.js
+2018-04-26 14:46:00 .....         5633         1799  node_modules/tar-stream/pack.js
+2018-06-07 20:44:04 .....         2302         1065  node_modules/tar-stream/package.json
+2018-04-26 14:55:46 .....          423          216  node_modules/to-buffer/index.js
+2018-06-07 20:44:04 .....         1509          740  node_modules/to-buffer/package.json
+2017-03-05 00:29:12 .....         6884         2319  node_modules/tunnel-agent/index.js
+2018-06-07 20:44:04 .....         1568          746  node_modules/tunnel-agent/package.json
+2014-11-25 20:05:40 .....          123          104  node_modules/util-deprecate/node.js
+2015-10-07 18:36:10 .....         1614          693  node_modules/util-deprecate/browser.js
+2018-06-07 20:44:04 .....         1589          743  node_modules/util-deprecate/package.json
+2017-04-08 13:05:56 .....          408          227  node_modules/which-pm-runs/index.js
+2018-06-07 20:44:04 .....         1573          729  node_modules/which-pm-runs/package.json
+1985-10-26 08:15:00 .....         1428          469  node_modules/wide-align/align.js
+2018-06-07 20:44:04 .....         1862          937  node_modules/wide-align/package.json
+2018-06-07 20:44:04 .....         1390          693  node_modules/wrappy/package.json
+2016-05-17 23:15:26 .....          905          453  node_modules/wrappy/wrappy.js
+2015-11-02 22:19:06 .....          384          203  node_modules/xtend/immutable.js
+2015-11-02 22:19:06 .....         1056          630  node_modules/xtend/LICENCE
+2018-06-07 20:44:04 .....         1884          852  node_modules/xtend/package.json
+2015-11-02 22:19:06 .....          369          197  node_modules/xtend/mutable.js
+2018-06-14 16:36:06 .....          510          286  package.json
+2018-06-14 16:37:40 .....       139566        33979  v8.log
+2018-06-14 16:36:06 .....        17953         5698  package-lock.json
+------------------- ----- ------------ ------------  ------------------------
+2018-06-22 21:25:32            4858492      1879079  267 files

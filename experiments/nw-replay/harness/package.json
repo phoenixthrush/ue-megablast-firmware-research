@@ -1,0 +1,10 @@
+{
+  "name": "megablast-offline-protocol-harness",
+  "main": "index.html",
+  "window": {
+    "show": false,
+    "width": 200,
+    "height": 100
+  },
+  "chromium-args": "--disable-background-networking --disable-component-update --disable-sync --no-proxy-server"
+}

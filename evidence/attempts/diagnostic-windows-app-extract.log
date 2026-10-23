@@ -1,0 +1,79 @@
+
+7-Zip (z) 26.05 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:8 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 3749296 bytes (3662 KiB)
+
+Extracting archive: work/diagnostic-windows/ue_diag_tool.exe
+--
+Path = work/diagnostic-windows/ue_diag_tool.exe
+Type = PE
+Physical Size = 3749296
+CPU = x86
+Characteristics = Executable 32-bit LargeAddress
+Created = 2018-02-04 19:14:01
+Headers Size = 1024
+Checksum = 3768933
+Name = nw.exe
+Image Size = 1847296
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 1086976
+Initialized Data Size = 741376
+Uninitialized Data Size = 0
+Linker Version = 14.11
+OS Version = 5.1
+Image Version = 0.0
+Subsystem Version = 5.1
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible GuardCF TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+FileVersion: 0.0.0.0
+ProductVersion: 0.0.0.0
+CompanyName: The NWJS Community
+FileDescription: nwjs
+InternalName: nw_exe
+LegalCopyright: Copyright 2017 The Chromium Authors. All rights reserved.
+OriginalFilename: nw.exe
+ProductName: nwjs
+CompanyShortName: nwjs.io
+ProductShortName: nwjs
+LastChange: 5bae9719551562c019846c01a2d4b971add30f16-
+Data Directories: 16
+{
+index=0 name=EXPORT VA=0x154C80 Size=104
+index=1 name=IMPORT VA=0x154CE8 Size=220
+index=2 name=RESOURCE VA=0x15E000 Size=370672
+index=4 name=SECURITY VA=0x391728 Size=7816
+index=5 name=BASERELOC VA=0x1B9000 Size=39728
+index=6 name=DEBUG VA=0x152CD0 Size=56
+index=9 name=TLS VA=0x152D08 Size=24
+index=10 name=LOAD_CONFIG VA=0x10CB00 Size=64
+index=12 name=IAT VA=0x10B000 Size=1208
+index=13 name=DELAY_IMPORT VA=0x154AB4 Size=128
+}
+}
+----
+Path = [0]
+Size = 1925416
+Packed Size = 1925416
+Virtual Size = 1925416
+Offset = 1816064
+--
+Path = [0]
+Type = zip
+Physical Size = 1925415
+Tail Size = 1
+
+Everything is Ok
+
+Files: 5
+Size:       62664
+Compressed: 3749296

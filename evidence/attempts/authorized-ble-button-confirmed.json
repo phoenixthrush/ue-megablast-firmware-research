@@ -1,0 +1,41 @@
+{
+  "transport": "BLE",
+  "operations": [
+    {
+      "request": "0000010100",
+      "error_reply": "ff00010e01"
+    },
+    {
+      "request": "0000020100",
+      "error_reply": "ff00020e01"
+    }
+  ],
+  "authorization_handshake_sent": true,
+  "gatt": [
+    {
+      "uuid": "1b7e8251-2877-41c3-b46e-cf057c562023",
+      "characteristics": [
+        "5e9bf2a8-f93f-4481-a67e-3b2f4a07891a"
+      ]
+    },
+    {
+      "uuid": "7fd36e38-4680-4a77-bea3-beeaeecbf592",
+      "characteristics": [
+        "748e2216-8b9a-4598-a0c6-2dee1af454db",
+        "8f83dd07-e637-5cea-a223-f1f3b64b73ee"
+      ]
+    }
+  ],
+  "compatibility": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "missing_cccd": true
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "missing_cccd": true
+    }
+  ],
+  "authorization_status": 0,
+  "error": "NotAuthorized: Centurion error 14 (NOT_AUTHORIZED)"
+}

@@ -1,0 +1,142 @@
+000000c3  hidBuf
+000000df  colorCodes
+00000103  batteryStates
+00000127  events
+00000143  targets
+0000015f  target
+0000017b  HidCommandList
+0000019f  setTarget
+00000233  getDevice
+00000283  No devices available
+000002b5  devices
+000002d1  device
+000002ed  productId
+00000311  console
+00000349  MegaBlast found, setting this to target device
+00000390  Manhattan
+000003b4  Blast found, setting this to target device
+000003f8  Brooklyn
+0000044c  deviceUnderTest
+00000814  write
+00000932  command
+00000957  writeToDevice
+000009e6  N+!~
+000009f6  readTimeout
+00000b6d  response
+00000b89  readFromDevice
+00000c5c  slice
+00000c81  response: 
+00000ca5  printResultinHex
+00000d0d  close
+00000e4a  getFirmware
+00000f33  BT Address:
+00000f57  decimalToHex
+00001187  getBT
+0000127b  Response: 
+0000140a  readBTfromFlash
+00001628  getMacIP1
+0000170c  Response:
+0000189b  readStationMacfromFlash
+0000198c  MAC: 
+000019ae  IP Address: 
+00001c7f  getMacIP2
+00001f01  getDeviceStatus
+0000206c  mode
+00002091  setBootmode
+00002136  changing to factory mode
+000021fb  setBootModeFactory
+000022a8  changing to User mode
+0000236b  setBootModeUser
+00002442  Generating Event: 
+0000259d  event
+000025c2  GenerateEvent
+00002668  powerOn
+00002818  powerOff
+000029c8  pairingMode
+00002b80  answerCall
+00002d38  endCall
+00002ee8  play
+00003008  volumeDown
+000031ad  volumeUp
+0000334a  resetPDL
+0000362a  readHardwareInfo
+00003886  readSerialfromFlash
+00003977  factory resetting
+00003a6f  factoryReset
+00003c7f  showStatus
+00003ebb  displayCurrentLanguage
+00004965  adcVoltage
+00004992  platform
+000049ae  offset
+000049ca  adcTempDecode
+000049ee  decodeTemp
+00004ae2  SOC : 
+00004afe  % charged
+00004b25  Battery Voltage: 
+00004b51  parseInt
+00004b89  byteString
+00004bad  Temp Voltage: 
+00004bd1  Temp : 
+00004c0c  Temp Status: 
+00004f6a  getSOC
+000053f8  getFactorySOC
+0000564e  getBatteryInfo
+00005837  readHardwareInfofromOTP
+00005a9b  readBTfromOTP
+00005cf5  readStationMacfromOTP
+00005f57  readAPMacfromOTP
+000061b1  readSerialfromOTP
+0000628b  concat
+000062aa  bytesToSend
+000062d7  Cent Command sent
+00006303  centResponse
+0000643f  commandArray
+00006476  centCommand
+000066ad  response from multipacket Command: 
+00006829  vci}
+00006839  multiPacketCentCommand
+000069dd  seqNum
+00006cd4  centCommandExpectingEvents
+00006faa  priorResponse
+00007083  Target Device changed to 
+00007167  deviceName
+00007430  testString
+00007454  argv1
+00007470  argv2
+0000748c  argv3
+000074b1  runHidCommand
+0000792a  require
+00007946  node-hid
+0000796f  0000
+0000798b  not programmed
+000079af  0100
+000079cb  Brooklyn Pale Grey
+000079f7  0101
+00007a13  Brooklyn Super Lemon
+00007a3f  0102
+00007a5b  Brooklyn Deep Sea
+00007a87  0103
+00007a93  "54O
+00007aa3  Brooklyn Tibetan Red
+00007acf  0104
+00007aeb  Brooklyn True Blue
+00007b17  0105
+00007b33  Brooklyn Graphite
+00007b5f  0106
+00007b7b  Manhattan Pale Grey
+00007ba7  0107
+00007bc3  Manhattan Super Lemon
+00007bef  0108
+00007c0b  Manhattan Deep Sea
+00007c37  0109
+00007c53  Manhattan Tibetan Red
+00007c7f  010a
+00007c9b  Manhattan True Blue
+00007cc7  010b
+00007ce3  Manhattan Graphite
+00007d29  Normal
+00007d61  critical
+00007d7d  shutdown
+00007d99  recovery
+00007db5  init
+000082ce  //////////

@@ -1,0 +1,125 @@
+{
+  "transport": "BLE",
+  "operations": [
+    {
+      "request": "0000010100",
+      "reply": "0001020002"
+    },
+    {
+      "request": "000212",
+      "reply": "0212030400d8"
+    },
+    {
+      "request": "0000030403",
+      "reply": "0003110003"
+    },
+    {
+      "request": "001104",
+      "reply": "11040501000000"
+    },
+    {
+      "request": "001125",
+      "reply": "112500"
+    },
+    {
+      "request": "0000060105",
+      "reply": "0006050003"
+    },
+    {
+      "request": "0005570042",
+      "reply": "0557"
+    },
+    {
+      "request": "000508004201",
+      "reply": "0508"
+    },
+    {
+      "request": "00051900420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051a00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051b00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051c00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051d00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051e00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051f00420fa0",
+      "reply_bytes": 4004
+    },
+    {
+      "request": "00051100420fa0"
+    },
+    {
+      "request": "0005320042",
+      "reply": "0532"
+    }
+  ],
+  "authorization_handshake_sent": true,
+  "gatt": [
+    {
+      "uuid": "1b7e8251-2877-41c3-b46e-cf057c562023",
+      "characteristics": [
+        "5e9bf2a8-f93f-4481-a67e-3b2f4a07891a"
+      ]
+    },
+    {
+      "uuid": "7fd36e38-4680-4a77-bea3-beeaeecbf592",
+      "characteristics": [
+        "748e2216-8b9a-4598-a0c6-2dee1af454db",
+        "8f83dd07-e637-5cea-a223-f1f3b64b73ee"
+      ]
+    }
+  ],
+  "compatibility": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "missing_cccd": true
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "missing_cccd": true
+    }
+  ],
+  "features": {
+    "0x0100": {
+      "index": 2,
+      "type": 0,
+      "version": 2
+    },
+    "0x0403": {
+      "index": 17,
+      "type": 0,
+      "version": 3
+    },
+    "0x0105": {
+      "index": 5,
+      "type": 0,
+      "version": 3
+    }
+  },
+  "firmware_version": "3.4.216",
+  "ota": {
+    "status": 5,
+    "parameter": 16777216,
+    "install_mode": 0
+  },
+  "events": [
+    "05300002f329965c786d"
+  ],
+  "error": "ProtocolError: Empty or out-of-order CPL segment"
+}

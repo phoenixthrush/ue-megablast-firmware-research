@@ -1,0 +1,23 @@
+
+7-Zip (z) 26.05 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:8 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 65368324 bytes (63 MiB)
+
+Extracting archive: work/diagnostic-msi/disk1.cab
+--
+Path = work/diagnostic-msi/disk1.cab
+Type = Cab
+Physical Size = 65368324
+Method = MSZip
+Blocks = 1
+Volumes = 1
+Volume Index = 0
+ID = 1234
+
+Everything is Ok
+
+Files: 14
+Size:       120147195
+Compressed: 65368324

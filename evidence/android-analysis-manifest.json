@@ -1,0 +1,80 @@
+{
+  "apk_sha256": "83a0fe9b01a8e82b9ac91ac3672d9654b25d4c2f59048fcf6759028a577c0396",
+  "tool": "JADX 1.5.6 CLI",
+  "runtime": "Homebrew openjdk@25 25.0.5.0.2",
+  "global_decompilation_errors": 16,
+  "device_commands_sent": true,
+  "files": [
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/device/CenturionMessage.java",
+      "bytes": 4360,
+      "sha256": "a3863bc0c4cb5a6067d474855122e3b085615e646aa9b5565d8f9929945b65d2"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/device/GenericDevice.java",
+      "bytes": 73274,
+      "sha256": "27847aa6873255192824e12a632ac75639799b91f957cd0473cd172426943062"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/feature/Features.java",
+      "bytes": 30568,
+      "sha256": "74338d2ed7600c68e2c4af0ca3e7687c587b3263359a65580d9038918c80da12"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/device/CenturionFeatureMapper.java",
+      "bytes": 3161,
+      "sha256": "7b768f49e66ba262ff3b7ca60726c7017b7a3084d01683d984aff77eb21ed755"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/devicedata/parcel/VersionResponseParcel.java",
+      "bytes": 862,
+      "sha256": "64dbba62a14e400587948b9fcaf4eaa95aa830b268bfd166321597d9a4a5d2a2"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/device/FileAccess.java",
+      "bytes": 789,
+      "sha256": "43a3dbc75b2e5cefaac04c43169420a44d82cd80c26404fae9d09cfb8332b9c9"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/devicedata/FileReadData.java",
+      "bytes": 720,
+      "sha256": "b425fb4e2f4303a983e21194ee49040f2f2c5745fb4fa144e81d1f8f5e74f05f"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/logiux/newjackcity/utils/SpeakerFileReader.java",
+      "bytes": 7599,
+      "sha256": "8c19b38a982444dc3023d5440d3d43fa2eddd223bb80b00a684b02d4b5eb6d34"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/logiux/newjackcity/presenter/impl/DevOptionsPresenter.java",
+      "bytes": 20602,
+      "sha256": "51d9c4abc7ee87647a6aa2afaef3475792e508454f208ef5ad392dcfe9670605"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/connection/CPLConnection.java",
+      "bytes": 4881,
+      "sha256": "7b66955df01e300099268747719766a1a135c913bae6500cdaecc71abebc6c34"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/ble/BLEConnection.java",
+      "bytes": 34622,
+      "sha256": "dc61107d513c1f82a713b8ee3aa38dbeebb96fae6c60230546554679e2be3911"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/ue/centurion/device/OTAValidationError.java",
+      "bytes": 1611,
+      "sha256": "94d9288de0f9649584b6c3365456ff120d942afb579f7dfce0efb813600c860f"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/logiux/newjackcity/BuildConfig.java",
+      "bytes": 1776,
+      "sha256": "d5bde6999a99c3c573f1d4d3c8b163c31beb29f3f3a116ef2edcf4104d387ecf"
+    },
+    {
+      "path_relative_to_sources": "com/logitech/logiux/newjackcity/helper/OTAServer.java",
+      "bytes": 1451,
+      "sha256": "0450e82652855498b2e811814b1ecd790fa082f43fecd3fba3796dee5cac2476"
+    }
+  ],
+  "live_follow_up": "BLE authorization handshake and diagnostic getters approved by owner; firmware confirmed 3.4.216; see ble-firmware-confirmed.json"
+}

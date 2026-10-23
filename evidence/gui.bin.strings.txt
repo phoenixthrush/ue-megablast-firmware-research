@@ -1,0 +1,198 @@
+000000a7  nwGui
+000000b3  2kEj
+000000df  homedir
+000000fb  poweredOn
+0000011f  firmwareType
+00000143  speakerUnderTest
+00000167  powerStateDecode
+0000018b  batteryStateDecode
+000001b7  decodeConnectionStatus
+00000252  hideAllButMessage
+000002aa  document
+000002b6  >U_/
+000002c6  getElementsByClassName
+000002f2  basicBlock
+00000335  style
+00000351  none
+0000036d  display
+0000045e  overall
+00000534  block
+0000062b  bringItBack
+000006d6  not available
+000006fa  runHidCommand
+0000071e  getFirmware
+00000743  hidBuf
+0000075f  Blast
+0000077b  MegaBlast
+0000079f  Factory Mode
+000007c6  Normal Mode
+000007ea  parseInt
+00000806  byteString
+0000082a  readSerialfromFlash
+00000856  slice
+00000872  printResultinHex
+00000896  replace
+000008ce  hexToAscii
+000008f2  0000
+0000090e  readBTfromFlash
+00000932  getDeviceStatus
+00000956  console
+0000098e  status returned: 
+000009c0  poweredData
+000009e7  getBatteryInfo
+00000a0b  decimalToHex
+00000a2f  readHardwareInfo
+00000a53  colorCodes
+00000a7a  getElementById
+00000a9e  volt
+00000aba  btAddy
+00000ad6  target
+00000af2  sMode
+00000b0e  firmwareV
+00000b32  batStat
+00000b4e  cCurrent
+00000ba2  cCode
+00000bbe  power
+00000bda  substr
+00000c12  textContent
+000013ae  batState
+000013ca  powerState
+000013ee  firmwareDevice
+00001402  .tA(
+00001412  build
+0000142e  major
+0000144a  minor
+00001482  serialHex
+000014a6  btAdd
+000014c2  voltage
+000014e7  colorCode
+0000150b  colorName
+0000152f  elVoltage
+00001553  elBtAddy
+0000156f  elTarget
+0000158b  elsMode
+000015a7  elFirmware
+000015cb  elBatStat
+000015ef  elCharge
+0000160b  elSoc
+00001627  elSer
+00001643  elCCode
+0000165f  elPower
+0000167b  updateSpeakerData
+000017cb  btName
+000017e7  cStatus
+00001809  showBtName
+0000182d  centBuf
+0000184c  Error reading BT name
+00001888  getWifiConStatus
+000018af  conStatus
+000018d3  Not Available
+00001a6c  speakerOn
+00001a99  elBtName
+00001ab5  elCStatus
+00001b81  control
+00001b9e  innerHTML
+00001bc2  myBtn
+00001bde  createElement
+00001c02  button
+00001c1e  recoverSpeaker
+00001c5e  <h2>Reset To Factory Defaults</h2>
+00001c9d  100px
+00001cb9  height
+00001cd5  700px
+00001cf1  width
+00001d0d  center
+00001d29  justifyContent
+00001d4d  appendChild
+00001d93  addEventListener
+00001db7  click
+00001dee  Warning: this will reset all speaker settings  
+00001e3a  After reset, use the BLAST & MEGABLAST app by Ultimate Ears to setup Wi-Fi and sign into Amazon Alexa.
+00001eb6  confirm
+00001f06  logCom
+00001f22  progressBar
+00001f46  pace
+00001faf  controls
+00001fce  elDiagButton
+00001ff2  refresh
+00002017  updateControls
+00002066  factoryReset
+0000208a  setBootModeUser
+000020c0  PROGRESS
+000020dc  Resetting your speaker to factory defaults
+00002120  label
+0000215e  <h1>Resetting your speaker to factory defaults</h1>
+000021b0  setInterval
+000021f7  clearInterval
+00002345  setTimeout
+0000239d  updatePage
+000026cf  dialog
+00002d25  diagButton
+00002d49  Create Diagnostic File
+00002d9a  This feature allows you to run a diagnostic scan and create a report that can be shared with the 
+00002e16  Ultimate Ears support team. The scan will run whether your speaker is powered ON or OFF, but for best
+00002e92   results please turn your speaker ON first. 
+00002ed6  Once the scan is complete, it will create a diagnostic report on your desktop that can be emailed to support. 
+00002f5a  The report will be named like: UEDiagnostic_<123456789>.json 
+00002fae  Diagnostic data will be used to improve our products and services and is covered by our Privacy Policy.
+00003030  /Desktop/UEDiagnostic_
+0000305f  .json
+0000307b  gatherDiagnosticInfo
+00003690  serialFromFlash
+000036b5  serialFromOTP
+000036ff  wifiConnectionStatus
+0000374b  readSerialfromOTP
+00003789  firmwareMode
+000037b9  firmwareVersion
+00003813  batteryVoltage
+0000383a  tempVoltage
+0000385e  decodeTemp
+0000389e  tempDegree
+000038c5  chargeCurrent
+0000390b  btFromDCT
+0000392f  readBTfromOTP
+00003953  btFromOTP
+00003977  readStationMacfromFlash
+000039a3  macFromFlash
+000039c7  readStationMacfromOTP
+000039f3  macFromOTP
+00003a23  readFilenoWrite
+00003a8d  diag
+00003aac  fromCharCode
+00003ad6  speakerLog
+00003afa  Does not exist
+00003b21  writeFileSync
+00003b45  JSON
+00003b61  stringify
+00003c8a  data
+00003cf7  fileLoc
+00003d31  tempBytes
+00003d55  temp
+00004ad0  getDevice
+00004af7  No devices available
+00004b29  noDevice
+00004ea7  require
+00004ec3  nw.gui
+00004f01  Window
+00004f20  evalNWBin
+00004f44  ./app/njch.bin
+00004f68  ./app/njcc.bin
+00004faa  Shutdown
+00004fc6  Off_BLE
+00004fe2  Off,BLE,Charging
+00005022  Charging
+0000503e  BLE,Charged
+00005062  Off, Charged
+000050a2  Dead Battery
+000050c6  Take On
+000050fa  Normal
+00005132  Critical
+00005151  Recovery
+0000516d  Init
+000051a1  Not Connected
+000051c5  AP Connected
+000051e9  IP Address Obtained
+00005215  Internet Connected
+00005241  Disconnecting
+00005265  Connecting
+000054a2  //////

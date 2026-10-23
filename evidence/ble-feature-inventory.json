@@ -1,0 +1,217 @@
+{
+  "operations": [
+    {
+      "request": "0000010100",
+      "reply": "0001020002"
+    },
+    {
+      "request": "000202",
+      "reply": "02020501010b00000000"
+    },
+    {
+      "request": "0000030001",
+      "reply": "0003010001"
+    },
+    {
+      "request": "000104",
+      "reply": "010418"
+    },
+    {
+      "request": "00011500",
+      "reply": "011518000000020001000101000002010100010104000301050003010600010107000101080001020000020201000203000001030300030400000204010001040200040405000204030003010900020301000303020003040400010202000202030001"
+    }
+  ],
+  "compatibility": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "missing_cccd": true
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "missing_cccd": true
+    }
+  ],
+  "features": {
+    "0x0100": {
+      "index": 2,
+      "type": 0,
+      "version": 2
+    },
+    "0x0001": {
+      "index": 1,
+      "type": 0,
+      "version": 1
+    }
+  },
+  "hardware_payload": "0501010b00000000",
+  "feature_table": [
+    {
+      "index": 0,
+      "feature_id": "0x0000",
+      "name": "iRoot",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 1,
+      "feature_id": "0x0001",
+      "name": "iFeatureSet",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 2,
+      "feature_id": "0x0100",
+      "name": "iDeviceInfo",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 3,
+      "feature_id": "0x0101",
+      "name": "iDeviceName",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 4,
+      "feature_id": "0x0104",
+      "name": "iBatterySOC",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 5,
+      "feature_id": "0x0105",
+      "name": "iFileSystem",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 6,
+      "feature_id": "0x0106",
+      "name": "iRemotePowerSet",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 7,
+      "feature_id": "0x0107",
+      "name": "iPowerState",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 8,
+      "feature_id": "0x0108",
+      "name": "iAutoSleep",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 9,
+      "feature_id": "0x0200",
+      "name": "iVolumeSet",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 10,
+      "feature_id": "0x0201",
+      "name": "iEQSet",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 11,
+      "feature_id": "0x0300",
+      "name": "iVoiceAssistant",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 12,
+      "feature_id": "0x0303",
+      "name": "iBluetoothCtrl",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 13,
+      "feature_id": "0x0400",
+      "name": "iWiFiScan",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 14,
+      "feature_id": "0x0401",
+      "name": "iWiFiAssociate",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 15,
+      "feature_id": "0x0402",
+      "name": "iWiFiConnectionStatus",
+      "type": 0,
+      "version": 4
+    },
+    {
+      "index": 16,
+      "feature_id": "0x0405",
+      "name": "EventLog",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 17,
+      "feature_id": "0x0403",
+      "name": "iOTA",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 18,
+      "feature_id": "0x0109",
+      "name": "iEarcons",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 19,
+      "feature_id": "0x0301",
+      "name": "iAVS",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 20,
+      "feature_id": "0x0302",
+      "name": "iFarField",
+      "type": 0,
+      "version": 3
+    },
+    {
+      "index": 21,
+      "feature_id": "0x0404",
+      "name": "AVSAlert",
+      "type": 0,
+      "version": 1
+    },
+    {
+      "index": 22,
+      "feature_id": "0x0202",
+      "name": "iApolloBroadcaster",
+      "type": 0,
+      "version": 2
+    },
+    {
+      "index": 23,
+      "feature_id": "0x0203",
+      "name": "iApolloReceiver",
+      "type": 0,
+      "version": 1
+    }
+  ]
+}

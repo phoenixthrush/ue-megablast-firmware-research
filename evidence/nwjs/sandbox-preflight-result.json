@@ -1,0 +1,31 @@
+{
+  "node": "v26.12.1",
+  "fixture": "@REPLAY_ROOT@/sandbox-preflight.mjs",
+  "checks": {
+    "own_fixture_read": {
+      "success": true,
+      "bytes": 2820
+    },
+    "output_write": {
+      "success": true
+    },
+    "home_read_denied": {
+      "success": true,
+      "code": "EPERM"
+    },
+    "outside_output_write_denied": {
+      "success": true,
+      "code": "EPERM"
+    },
+    "process_spawn_denied": {
+      "success": true,
+      "code": "EPERM",
+      "status": null
+    },
+    "loopback_network_denied": {
+      "success": true,
+      "code": "EPERM"
+    }
+  },
+  "passed": true
+}

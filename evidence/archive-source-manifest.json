@@ -1,0 +1,425 @@
+{
+  "description": "Source hashes identify private originals; archived bytes may be redacted, reformatted, or adapted. See docs/privacy.md.",
+  "files": [
+    {
+      "archive_path": "docs/findings.md",
+      "source_sha256": "0bb924a76ca3ac36d6842ee9e5bc34d32d9fee4fc529c13c65b9a96963950b6a",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "docs/protocol.md",
+      "source_sha256": "33cd22b3dfd55d16065b0f9d50a362e90b1b05c8ba7cfebf54e16535abd2b7c7",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "megablast_probe.py",
+      "source_sha256": "301783e5c2c81606e75ae6633ccb21262bec3faff071fd0de8f0fd7f54a4541c",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "tests/test_megablast_probe.py",
+      "source_sha256": "4e4c6867bd1246458b9a8d172c77e2052766f410f0691875194cc216702c9517",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "docs/probe.md",
+      "source_sha256": "f423e5038885b2d7c50f478ede91509257a87682c344c08ec6ce00b1a5090949",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "evidence/android-analysis-manifest.json",
+      "source_sha256": "396c6fd646ddfd111ea36713f47454a2ad835079b6a2463b884d362c015216aa",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/app-njcc.bin.strings.txt",
+      "source_sha256": "876d85eecaa03d4ecc6fa615183827535acdd8bc60e0c44c3f6d7e835115b571",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/app-njcc32.bin.strings.txt",
+      "source_sha256": "22fdb373b0729f741db5cc223efcf92fdd97db1cbd2257e72a96d22531998736",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/app-njch.bin.strings.txt",
+      "source_sha256": "e980a6f42369086ec8e081cf66135dbb1f2306eed920e97a262c380487a60503",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/app-njch32.bin.strings.txt",
+      "source_sha256": "574c6eab113d6a92c0cea6f979dae6d1a855cdda676daf710e53984f169621c9",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/ble-feature-inventory.json",
+      "source_sha256": "3492396435255cabf05f2b1e1635f6ba8359b50d341cbd79fca84221b87e2843",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/ble-firmware-confirmed.json",
+      "source_sha256": "cb5dd8e6c486189a3771fa64d5cb2915cd8d6e3bb083f5fa29daa28822bd4ea0",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/ble-gatt-services.json",
+      "source_sha256": "9101819fca0175570fa03295d1d10d7cd46300277e2d8b5d4e33ca6b5af92440",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/ble-log-read.json",
+      "source_sha256": "14ff794eec3189260d6b7d5177eaeced1b045a7bf3e195bccb774c63cbe485ae",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/diagnostic-file-manifest.json",
+      "source_sha256": "84bc09cd78296e1aa9bd0ea6646ced67d6f6d51e9b1da1c8fe1bd1cf75735842",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/gui.bin.strings.txt",
+      "source_sha256": "e6981ffefe5185f7f73e9a0a942a67ef2e3a4b93f4969d7706a07dbd9a94e637",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/megablast-usb-descriptors.txt",
+      "source_sha256": "2cbe5511ee22c6d5f007f7765f3336c68be8e62ca3bd9955f881b799ab060750",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/rea-diagnostic-analysis.json",
+      "source_sha256": "1ceba657e85089c8fd815177e714c79b7fc0eece5c64fb48ae95cf9c0e571cd4",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "evidence/speaker-log-summary.json",
+      "source_sha256": "99224b34de9efdf88de48b1f704fb6f9b0b12204e75488bb0b666088ed403056",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-auth-timeout.json",
+      "source_sha256": "a9daf0b481d568a8c15d0e34912100424193883bf1576e53cf018b972c903861",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-button-confirmed.json",
+      "source_sha256": "ea5b00b8775d8c9c3e82e8b44872c24ace4ee590792ae94395a8f909e70e685e",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-command-without-response.json",
+      "source_sha256": "385eb91ed5ce9e98f71cd111caa949b96c4781033f03fa209d35b9558af05205",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-long-read-race.json",
+      "source_sha256": "9d9f9554ea579a257d7e6cd88408700f2ca98507e220e33410af6a92f9f30cdd",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-phone-closed-timeout.json",
+      "source_sha256": "a9daf0b481d568a8c15d0e34912100424193883bf1576e53cf018b972c903861",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-session.json",
+      "source_sha256": "14ff794eec3189260d6b7d5177eaeced1b045a7bf3e195bccb774c63cbe485ae",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-with-response.json",
+      "source_sha256": "88c738e9173fb45669708fab90491b3d7054e9720c69e2a2297fe16bcbeafe46",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/authorized-ble-without-response.json",
+      "source_sha256": "88c738e9173fb45669708fab90491b3d7054e9720c69e2a2297fe16bcbeafe46",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/live-firmware-getter.json",
+      "source_sha256": "f9ccd57b3a312eddf5249da49d4399c0f05592a6316d46ea7ead5bbd5108e56d",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/live-gatt-services.json",
+      "source_sha256": "9101819fca0175570fa03295d1d10d7cd46300277e2d8b5d4e33ca6b5af92440",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/feature-inventory.json",
+      "source_sha256": "3492396435255cabf05f2b1e1635f6ba8359b50d341cbd79fca84221b87e2843",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/android-decompile.log",
+      "source_sha256": "c4137b52f2c48d44c0bde720564f2cd5ac0a4dc05283f9b7f65b2ec5218ea968",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/apk-inventory.txt",
+      "source_sha256": "2e87e0cdbcd0c0e67f4edcaf78104cff79a8c3568ee464c8ddeb9901336265f8",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-cab-list.txt",
+      "source_sha256": "8c983f539f123e2e1453e9375b86c019dfd60407bad9730f47b4ed4772b94900",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-dmg-inventory.txt",
+      "source_sha256": "dd19d9fa9e3a0c7147dbecc2b8b3c8170bc074c9afc3a81c9bb1f732b76b1b03",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-exe-list.txt",
+      "source_sha256": "202442810fc3a79b6053054a6cad551006f2a5977858823a10fec82e166328ba",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-msi-list.txt",
+      "source_sha256": "ae32ccaf2cbfb73a301029c5ee4a9ec3f4e532a26de1270854a906189b88771d",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-extract.log",
+      "source_sha256": "5c0b75043c58ed6704b8812f763e3122e9c60d07ac1a594fc4be4a794d73b1f7",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-full-extract.log",
+      "source_sha256": "cc181e123371693c4b6b03d9e4c1533e98a552707b45a2f0a4aee1df1ccc50b7",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-msi-extract.log",
+      "source_sha256": "58b62d52c742a23367423599daeea40bf1fbac54ae0cdbc85a272d6ea750c8ef",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-windows-app-extract.log",
+      "source_sha256": "46bd4065aaecddc72ec02d413b209057dc16bda0476a2bbc5d3c5b0650ad175a",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/diagnostic-windows-extract.log",
+      "source_sha256": "1e07a1c139ac1e221bf67426a0dbba3a90c66d84d79bf570bc658719012f900f",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "evidence/attempts/log-size-notification-capture.json",
+      "source_sha256": "0dcf8ea69919b48c202126b1e983d39a7a304fa65780079afdd3fa9256dccf48",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "evidence/attempts/log-read-first-chunk-capture.json",
+      "source_sha256": "e537d1c4f7c574e124c1f4317765c47279a197b32af25751d4c64feb6cdf4539",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/harness/package.json",
+      "source_sha256": "e5f613ad5df82af9a551e2126c233464d0b09a4f6f348e61c2daaec7846b4625",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/harness/index.html",
+      "source_sha256": "d8b9ce42a30e7bfb37183014fad13917098ede386e95a8582705a5aed01274f0",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "experiments/nw-replay/harness/harness.js",
+      "source_sha256": "f70f8ed572a912336a7bcc6a7eb11ff6b896bdd6dfd082246414cde9e16c04c7",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/harness/mode.json",
+      "source_sha256": "9a929753464a44b1320bb1d4a200ad2548f6212f17da737b95f9bea339a303fe",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/sandbox-preflight.mjs",
+      "source_sha256": "0813ac7c446008143623bf644047d9630dee7f478c9c985448807142b9fc10f1",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/sandbox-preflight.sb.template",
+      "source_sha256": "7bb707e26d92808863ed94423c8badeae0b46c6edd06fb29d2cc702c009968b5",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "experiments/nw-replay/nw-runtime.sb.template",
+      "source_sha256": "0f6b60d90aef9589d3c5adfd46d72a921331e5ad8cd96572885139582c83a6bb",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "evidence/nwjs/sandbox-preflight-result.json",
+      "source_sha256": "9a93eae1dfeeae5bbf25f6de27992af5ff9316c3340991b5cb869cedc466ccbb",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "analysis/manufacturer/UEServiceLocator.xml",
+      "source_sha256": "8fb97e71f318073a9e766e84bf0f3a5098c98951ccb8de401b0dd3a3a4eb3862",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/logiux/newjackcity/BuildConfig.java",
+      "source_sha256": "d5bde6999a99c3c573f1d4d3c8b163c31beb29f3f3a116ef2edcf4104d387ecf",
+      "redacted_or_reformatted": true
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/logiux/newjackcity/helper/OTAServer.java",
+      "source_sha256": "0450e82652855498b2e811814b1ecd790fa082f43fecd3fba3796dee5cac2476",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/logiux/newjackcity/presenter/impl/DevOptionsPresenter.java",
+      "source_sha256": "51d9c4abc7ee87647a6aa2afaef3475792e508454f208ef5ad392dcfe9670605",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/logiux/newjackcity/utils/SpeakerFileReader.java",
+      "source_sha256": "8c19b38a982444dc3023d5440d3d43fa2eddd223bb80b00a684b02d4b5eb6d34",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/AuthorizationRetry.java",
+      "source_sha256": "bebb54648fcc6c43e5e5569a3307efd68cdf1f634a0deba9f91f5a595c845b52",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/DeviceManager.java",
+      "source_sha256": "6014981cd236e995ef588bc2046149e964c51ee199f8a8fd4cb0ae50aa554141",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/ble/BLEAdvertisementInfo.java",
+      "source_sha256": "56e093e6b1907a4b6686843ba96e7337a7a8b853eae382aaaeb9ad92f3404720",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/ble/BLEConnection.java",
+      "source_sha256": "dc61107d513c1f82a713b8ee3aa38dbeebb96fae6c60230546554679e2be3911",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/connection/CPLConnection.java",
+      "source_sha256": "7b66955df01e300099268747719766a1a135c913bae6500cdaecc71abebc6c34",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/CenturionError.java",
+      "source_sha256": "0b34cf91021216d29536d764ca20b797dddf275f902b725c360c9937980616b0",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/CenturionFeatureMapper.java",
+      "source_sha256": "7b768f49e66ba262ff3b7ca60726c7017b7a3084d01683d984aff77eb21ed755",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/CenturionMessage.java",
+      "source_sha256": "a3863bc0c4cb5a6067d474855122e3b085615e646aa9b5565d8f9929945b65d2",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/FileAccess.java",
+      "source_sha256": "43a3dbc75b2e5cefaac04c43169420a44d82cd80c26404fae9d09cfb8332b9c9",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/GenericDevice.java",
+      "source_sha256": "27847aa6873255192824e12a632ac75639799b91f957cd0473cd172426943062",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/OTACheckError.java",
+      "source_sha256": "16fcb4205e0ec7b8fc6cc5375401a1089583dbd9b8869f50113d5b19ee284612",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/OTAInstallMode.java",
+      "source_sha256": "4a0de36bab177777ba1ec025a0df2b4a0016b638033b446d117d0b1d0f8ae984",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/OTAStatus.java",
+      "source_sha256": "b2b78582e069f16be304413ca68111bac633c3471565b87506a9a32e7c611aa0",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/device/OTAValidationError.java",
+      "source_sha256": "94d9288de0f9649584b6c3365456ff120d942afb579f7dfce0efb813600c860f",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/FeatureInfo.java",
+      "source_sha256": "3fe901f194b8dbd7eeced2bcdd6cc88455ce49d5fb4782cba9c6d48629cc231b",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/FileReadData.java",
+      "source_sha256": "b425fb4e2f4303a983e21194ee49040f2f2c5745fb4fa144e81d1f8f5e74f05f",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/FileSizeData.java",
+      "source_sha256": "8a0850975e509ed2fc4ba3eb7ffe188a8bef4a77e8ddf6f8cee4bb3e34f683ac",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/HardwareInfo.java",
+      "source_sha256": "c7c8f3ae351ac726c9ff9bee170faac57b3e3e5404eee7bfb9278ab2aec14679",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/OTAInfo.java",
+      "source_sha256": "6c5653d92566f10bccaf6db8ba73fe7b090b5a1393e5bf796169d40c616546e2",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/parcel/FeatureListResponseParcel.java",
+      "source_sha256": "fec4d8a8adc5d6a23a10e840dea29faa362347bb530e7b08e69594555236cf92",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/devicedata/parcel/VersionResponseParcel.java",
+      "source_sha256": "64dbba62a14e400587948b9fcaf4eaa95aa830b268bfd166321597d9a4a5d2a2",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/eventbus/event/AuthorizationStatus.java",
+      "source_sha256": "8b23a89cdd7021074883bae6b00f448dbd91b7ac9fefe62ed1bf2b60644ff181",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/feature/Features.java",
+      "source_sha256": "74338d2ed7600c68e2c4af0ca3e7687c587b3263359a65580d9038918c80da12",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/spp/CenturionSPPConnection.java",
+      "source_sha256": "f1ea8e960f3a940af3ad4c5fa7fd29e46c66fd3e22702ff5d8203a2b2502e46f",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/utils/CenturionUtils.java",
+      "source_sha256": "50cea21ca4f17fe76c147260cd3b846fbe30f55132d28d5a92ad0d80b9a1b5ca",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/wifi/WiFiConnection.java",
+      "source_sha256": "bf3d1c80afc71e8791004596b57f66c708643aa8f9e952c8a8ab1a1341ba1aca",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/logitech/ue/centurion/wifi/WiFiDiscoverer.java",
+      "source_sha256": "f021381b103b4c21f054366004656dbff9a082be7b050681c7cb759f01264675",
+      "redacted_or_reformatted": false
+    },
+    {
+      "archive_path": "analysis/android/sources/com/polidea/rxandroidble/internal/connection/NotificationAndIndicationManager.java",
+      "source_sha256": "f427cfc24488bf56da7cdee816afbca4590d10a4d39dc459dd289ace60fb2a80",
+      "redacted_or_reformatted": false
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "operations": [
+    {
+      "request": "0000010100",
+      "reply": "0001020002"
+    },
+    {
+      "request": "000212",
+      "reply": "0212030400d8"
+    },
+    {
+      "request": "0000030105",
+      "reply": "0003050003"
+    },
+    {
+      "request": "0005540042",
+      "reply": "0554"
+    }
+  ],
+  "notifications": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000001020002"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000212030400d8"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000003050003"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000554"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "0005300002f329965c786d"
+    }
+  ],
+  "compatibility": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "missing_cccd": true
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "missing_cccd": true
+    }
+  ],
+  "features": {
+    "0x0100": {
+      "index": 2,
+      "type": 0,
+      "version": 2
+    },
+    "0x0105": {
+      "index": 5,
+      "type": 0,
+      "version": 3
+    }
+  },
+  "firmware_version": "3.4.216",
+  "size_response": "",
+  "long_characteristic_read": {
+    "redacted": true,
+    "bytes": 512,
+    "reason": "may contain speaker log or authentication data"
+  }
+}

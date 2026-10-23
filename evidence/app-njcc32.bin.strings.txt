@@ -1,0 +1,105 @@
+0000006d  centBuf
+00000081  ssidArray
+00000099  associatedArray
+000000b5  indexMap
+000000fc  clearIndex
+0000021d  byteString
+0000027a   does not fit in a byte
+0000029e  000000000
+000002b9  substr
+000003b1  decimalToHex
+000003f1  padding
+0000050b  printResultinHex
+00000547  output
+00000571  dude
+00000668  hexToAscii
+00000698  str1
+000006e3  fromCharCode
+000006f3  &I8V
+000006fb  parseInt
+00000806  string2Bin
+0000083e  result
+0000086c  push
+0000087c  charCodeAt
+0000094a  word2Int
+0000096e  "77~
+00000976  word
+000009a6  replace
+00000a68  int2ByteArray
+00000a9c  convertMe
+00000ab9  bytes
+00000b85  send
+00000bad  commandArray
+00000bdf  runHidCommand
+00000bfb  centCommand
+00000c13  hidBuf
+00000ca5  mSend
+00000cf1  multiPacketCentCommand
+00000d9c  eSend
+00000de8  centCommandExpectingEvents
+00000e8f  iRootGetFeature
+00000ec3  featureID
+00000ee0  toIndex
+00001074  getWifiConStatus
+000010ac  payloadPackets
+000011bd  showBtName
+0000123f  slice
+00001254  console
+000013a7  getOTAStatus
+000014d5  iFileSystem_FileOpen
+00001510  accessType
+00001581  concat
+0000159e  Opening File #
+000016f9  iFileSystem_FileClose
+0000179d  Closing File #
+000018dd  ~/^.
+000018e4  iFileSystem_FileSize_V2
+0000195e  Getting size of file
+000019b9  deviceUnderTest
+000019d5  readTimeout
+000019ed  result from filesize read:
+00001a15  close
+00001a39  size of file is :
+00001a8f  no file available
+00001d0c  iFileSystem_FileSize
+00001f3e  readFile
+00001f6d  fileName
+00001f87  fwVer
+00001f97  J!&w
+00001f9f  chunkSize
+00001ffb  getFirmware
+0000203d  size
+00002077  iFileSystem_FileRead
+000020b8  data
+000020cd  base64data
+00002102  made it to the end
+00002122  datasize = 
+0000213d  expected datasize = 
+00002160  Buffer
+00002174  base64
+00002181  E.X$
+00002188  writing file to PC
+000021b8  writeFileSync
+00002314  file does not exist
+000027c9  readFilenoWrite
+000027ff  =&<;
+0000283f  attempting to read crashlog
+00002ed4  fileSize
+00002ee8  beginningData
+00002f6a  totalData
+00002f88  Current chunk size: 
+0000319d  writeFile
+000031de  fileData
+00003228  readFileSync
+00003249  iFileSystem_FileWrite
+0000336d  fileOffset
+0000338d  leftToWrite
+000033a5  chunkInt9
+000033b0  <8?>
+000033fe  writing last Data from 
+00003422   to 
+0000348f  newOffset
+000034b6  writing data 
+00003502  setTimeout
+0000355d  write error detected
+00003963  getAVSClientState

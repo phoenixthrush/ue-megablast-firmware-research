@@ -1,0 +1,75 @@
+{
+  "operations": [
+    {
+      "request": "0000010100",
+      "reply": "0001020002"
+    },
+    {
+      "request": "0000020105",
+      "reply": "0002050003"
+    },
+    {
+      "request": "000503004201",
+      "reply": "0503"
+    },
+    {
+      "request": "00051400420040",
+      "reply_bytes": 68
+    },
+    {
+      "request": "0005350042",
+      "reply": "0535"
+    }
+  ],
+  "notifications": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000001020002"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000002050003"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000503"
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "data": "0045"
+    },
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "data": "000535"
+    }
+  ],
+  "long_reads": [],
+  "compatibility": [
+    {
+      "characteristic": "748e2216-8b9a-4598-a0c6-2dee1af454db",
+      "missing_cccd": true
+    },
+    {
+      "characteristic": "8f83dd07-e637-5cea-a223-f1f3b64b73ee",
+      "missing_cccd": true
+    }
+  ],
+  "features": {
+    "0x0100": {
+      "index": 2,
+      "type": 0,
+      "version": 2
+    },
+    "0x0105": {
+      "index": 5,
+      "type": 0,
+      "version": 3
+    }
+  },
+  "read_reply": {
+    "redacted": true,
+    "bytes": 66,
+    "reason": "may contain speaker log or authentication data"
+  },
+  "error": "TimeoutError: "
+}

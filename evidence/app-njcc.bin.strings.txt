@@ -1,0 +1,101 @@
+000000a7  centBuf
+000000c3  ssidArray
+000000e7  associatedArray
+0000010b  indexMap
+0000016f  clearIndex
+00000376   does not fit in a byte
+000003a2  000000000
+000003c9  substr
+000004e7  byteString
+0000067a  padding
+000006bb  decimalToHex
+00000759  dude
+0000086d  output
+00000889  printResultinHex
+00000933  fromCharCode
+00000957  parseInt
+00000a5b  str1
+00000a9f  hexToAscii
+00000b45  push
+00000b61  charCodeAt
+00000c3e  result
+00000c5a  string2Bin
+00000d00  replace
+00000dbd  word
+00000de2  word2Int
+00000f10  convertMe
+00000f3d  bytes
+00000f59  int2ByteArray
+00000ff5  runHidCommand
+00001019  centCommand
+0000103d  hidBuf
+000010d6  commandArray
+00001103  send
+00001192  multiPacketCentCommand
+00001252  mSend
+000012e4  centCommandExpectingEvents
+000013a0  eSend
+00001597  featureID
+000015c4  toIndex
+000015e0  iRootGetFeature
+0000178c  payloadPackets
+000017b0  getWifiConStatus
+0000189e  slice
+000018bb  console
+00001a18  showBtName
+00001bcb  getOTAStatus
+00001cc1  concat
+00001ce6  Opening File #
+00001e27  accessType
+00001e5a  iFileSystem_FileOpen
+00001f74  Closing File #
+000020bc  iFileSystem_FileClose
+0000217b  Getting size of file
+000021f2  Bjfw
+00002202  deviceUnderTest
+00002226  readTimeout
+0000224a  result from filesize read:
+0000227e  close
+000022aa  size of file is :
+00002334  no file available
+000025ad  iFileSystem_FileSize_V2
+00002862  iFileSystem_FileSize
+00002950  getFirmware
+0000299e  iFileSystem_FileRead
+000029ca  chunkSize
+00002a0f  made it to the end
+00002a3b  datasize = 
+00002a62  expected datasize = 
+00002a91  Buffer
+00002aad  base64
+00002ac9  writing file to PC
+00002b11  writeFileSync
+00002c62  data
+00002c87  base64data
+00002cf3  size
+00002d5f  FE@G
+00002d6f  fileName
+00002d96  fwVer
+00002dd2  readFile
+00002e64  file does not exist
+000033c3  attempting to read crashlog
+0000369d  readFilenoWrite
+00003c6e  totalData
+00003c98  Current chunk size: 
+00003e8c  fileSize
+00003ea8  beginningData
+00003fb1  readFileSync
+00003fde  iFileSystem_FileWrite
+000040ec  fileData
+00004108  writeFile
+000041c1  writing last Data from 
+000041ed   to 
+0000429e  newOffset
+0000430b  fileOffset
+0000433b  leftToWrite
+0000435f  chunkInt
+000043cb  writing data 
+00004441  setTimeout
+0000448a  write error detected
+00004a22  getAVSClientState
+00004de8  ////////

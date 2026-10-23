@@ -1,0 +1,15 @@
+HTTP/2 200 
+content-type: binary/octet-stream
+content-length: 66347008
+server: AmazonS3
+date: Fri, 23 Oct 2026 13:20:58 GMT
+last-modified: Tue, 17 Jun 2025 00:24:10 GMT
+etag: "01a82496efbb1517576bc18404737fbf-8"
+x-amz-server-side-encryption: AES256
+accept-ranges: bytes
+x-cache: Miss from cloudfront
+via: 1.1 765a91ad9951d0108fc1de53e348bac4.cloudfront.net (CloudFront)
+x-amz-cf-pop: FRA60-P5
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: Qk5uAV0vx0P-3EwyBlLn93ljpySm1GqzFv3VSoewvY4FtRkSCUEI_A==
+

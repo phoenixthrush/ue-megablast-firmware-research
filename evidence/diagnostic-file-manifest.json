@@ -1,0 +1,37 @@
+[
+  {
+    "path_in_app_nw": "package.json",
+    "bytes": 486,
+    "sha256": "b1165daf9aa9495b3f11e41cbf116ff516fabe0f04501347d16c003982516a4a"
+  },
+  {
+    "path_in_app_nw": "index.html",
+    "bytes": 2298,
+    "sha256": "578ab52263b68de01125ea726458ede6c69a26b0cc1092d8302bd4414fe7de6a"
+  },
+  {
+    "path_in_app_nw": "gui.bin",
+    "bytes": 21672,
+    "sha256": "71b3348008f5257c5c717b06a32e3d05a8b7d197fb9191a2f985d0553ccb9f9c"
+  },
+  {
+    "path_in_app_nw": "app/njch.bin",
+    "bytes": 33496,
+    "sha256": "f12c2ee28fd6d0213afbeb6ac0ce0256cc4ffde8789db595034a9e2a55b76abf"
+  },
+  {
+    "path_in_app_nw": "app/njcc.bin",
+    "bytes": 19952,
+    "sha256": "8241d724796c29958406d479723e13b4315239c27e812a8b8d696f8b72cc8f15"
+  },
+  {
+    "path_in_app_nw": "app/njch32.bin",
+    "bytes": 26104,
+    "sha256": "d7d7ec805429136ab86f1ddf3dcbd505c6cb917e30c9f889369710f923c8b26b"
+  },
+  {
+    "path_in_app_nw": "app/njcc32.bin",
+    "bytes": 15632,
+    "sha256": "1b9ddeed4a22b5ae2ae5ec9a3d61b5ae4d36028a46344ae6707a44c36612057f"
+  }
+]

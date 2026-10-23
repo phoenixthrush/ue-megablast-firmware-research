@@ -1,0 +1,75 @@
+
+7-Zip (z) 26.05 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:8 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 66347008 bytes (64 MiB)
+
+Listing archive: work/sources/BLAST_MEGABLAST_Diagnostic_Tool.msi
+
+--
+Path = work/sources/BLAST_MEGABLAST_Diagnostic_Tool.msi
+Type = Compound
+Physical Size = 66347008
+Extension = msi
+Cluster Size = 512
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+                    .....            4           64  !Icon
+                    .....         2440         2496  !File
+                    .....          444          448  !UIText
+                    .....           14           64  !Media
+                    .....           56           64  !Binary
+                    .....          638          640  !Dialog
+                    .....         2552         2560  !Error
+                    .....          318          320  Binary.New
+                    .....          318          320  Binary.Up
+                    .....     65368324     65368576  disk1.cab
+                    .....         1432         1472  !_Columns
+                    .....           76          128  !_Tables
+                    .....           16           64  !Feature
+                    .....           24           64  !Registry
+                    .....           12           64  !CheckBox
+                    .....           48           64  !Shortcut
+                    .....         7566         7680  !Control
+                    .....           32           64  !Upgrade
+                    .....          372          384  !Property
+                    .....         1078         1088  Binary.info
+                    .....          420          448  !ActionText
+                    .....           48           64  !TextStyle
+                    .....           42           64  !Directory
+                    .....          168          192  !Component
+                    .....         4033         4096  Binary.banner
+                    .....        26931        27136  Binary.dialog
+                    .....          854          896  Binary.tabback
+                    .....       103416       103424  !_StringData
+                    .....         8364         8704  !_StringPool
+                    .....         4296         4608  !_Validation
+                    .....           72          128  !RadioButton
+                    .....         1572         1600  !ControlEvent
+                    .....            4           64  !CreateFolder
+                    .....          228          256  !CustomAction
+                    .....          128          128  !EventMapping
+                    .....         2998         3008  Binary.completi
+                    .....         2998         3008  Binary.custicon
+                    .....          766          768  Binary.exclamic
+                    .....         2998         3008  Binary.insticon
+                    .....         2998         3008  Binary.removico
+                    .....         2998         3008  Binary.repairic
+                    .....           24           64  !LaunchCondition
+                    .....           66          128  !AdminUISequence
+                    .....           88          128  !ControlCondition
+                    .....       211104       211456  Binary.aicustact.dll
+                    .....         2862         2880  Binary.cmdlinkarrow
+                    .....           56           64  !FeatureComponents
+                    .....          180          192  !InstallUISequence
+                    .....        30696        30720  Icon.ultimateears.exe
+                    .....           48           64  !AdminExecuteSequence
+                    .....           84          128  !AdvtExecuteSequence
+                    .....          450          512  !InstallExecuteSequence
+                    .....           42           64  !BootstrapperUISequence
+                    .....         7802         8192  [5]DigitalSignature
+                    .....          624          640  [5]SummaryInformation
+------------------- ----- ------------ ------------  ------------------------
+                              65806222     65809472  55 files

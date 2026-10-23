@@ -1,0 +1,54 @@
+
+7-Zip (z) 26.05 (arm64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-21
+ 64-bit arm_v:8.5-A locale=C.UTF-8 Threads:8 OPEN_MAX:1048575, ASM
+
+Scanning the drive for archives:
+1 file, 96234145 bytes (92 MiB)
+
+Extracting archive: work/sources/BLAST_and_MEGABLAS_Diagnostic_Tool.dmg
+--
+Path = work/sources/BLAST_and_MEGABLAS_Diagnostic_Tool.dmg
+Type = Dmg
+Physical Size = 96234145
+Method = Zero2 ADC CRC
+Blocks = 192
+Cluster Size = 1048576
+Comment = 
+{
+unpack-size: 195362816
+ID: 1cb8df1876e640eab70429ed5d7c7fd7
+master-checksum: CRC: E87D4226
+pack-checksum: CRC: 499FA6EA
+pack-offset: 0
+pack-length: 96166827
+rsrc-offset: 96207300
+rsrc-length: 26333
+xml-offset: 96166827
+xml-length: 40473
+}
+----
+Path = 2.hfs
+Size = 195330048
+Packed Size = 96165246
+Comment = DiscRecording 9.0.3d5 (Apple_HFS : 2)
+Method = Zero2 ADC CRC
+Blocks = 190
+Cluster Size = 1048576
+Checksum = D538C7BD
+ID = 1
+--
+Path = 2.hfs
+Type = HFS
+Physical Size = 195330048
+Method = HFS+
+Cluster Size = 2048
+Free Space = 0
+Created = 2018-06-25 14:57:09
+Modified = 2018-06-25 23:57:12
+
+Everything is Ok
+
+Folders: 135
+Files: 552
+Size:       3120046
+Compressed: 96234145
